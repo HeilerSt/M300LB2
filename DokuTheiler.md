@@ -61,7 +61,7 @@ Die einzelnen Code Abschnitte des Dockercomposefiles.
 |:--:|:--:|:--:|
 |Webserver|Webserver kann im Browser abgerufen werden|Der Webserver konnte im Browser abgerufen werden|
 |phpMyAdmin|Das phpMyAdmin Tool wird angezeigt|Das phpMyAdmin Tool wurde auf dem Webserver angezeigt|
-|mySQL-Server|phpMyAdmin sollte mit dem mySQL-Server kommunizieren|Wegen mehreren Problemen (siehe Troubleshooting)|
+|mySQL-Server|phpMyAdmin sollte mit dem mySQL-Server kommunizieren|Ich konnte über phpMyAdmin auf die MySQL-Datenbank zugreifen|
 
 *phpMyAdminWebsite* </br>
 ![Image](/phpmyadminwebsite.PNG)
@@ -74,6 +74,6 @@ Die einzelnen Code Abschnitte des Dockercomposefiles.
 Mein Wissen über Docker ist deutlich gewachsen. Da ich weiss, dass ich in meinem Arbeitsumfeld dies nochmals anschauen werde, lässt hoffen, dass da dieselben Probleme nicht mehr auftreten wie hier.</br>
 
 ## Reflexion
-Leider konnte ich das Projekt, trotz Troubleshooting, nicht zum laufen bringen. Ich hatte mir Docker deutlich einfacher vorgestellt als es dann wirklich war.
+Ich hatte mir Docker deutlich einfacher vorgestellt als es dann wirklich war.
 Die kürzeren Code-Längen (verglichen mit Vagrant) haben mich da ziemlich reingelegt. Es war deutlich anspruchsvoller.
 Besonders fand man deutlich weniger im Internet dazu, was natürlich das Lösen von Fehlern schwieriger machte.
