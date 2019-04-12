@@ -164,9 +164,9 @@ CMD ["mysqld"]
 |mySQL-Server|phpMyAdmin sollte mit dem mySQL-Server kommunizieren|Ich konnte über phpMyAdmin auf die MySQL-Datenbank zugreifen|
 
 *phpMyAdminWebsite-Login* </br>
-![Image](/phpmyadmin.PNG)
+![Image](/phpmyadmin.png) </br>
 *phpMyAdminWebsite* </br>
-![Image](/login.PNG)
+![Image](/login.png)
 
 ## Troubleshooting
 ### Allgemeines Troubleshooting
