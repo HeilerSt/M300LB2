@@ -187,6 +187,7 @@ CMD ["mysqld"]
 Mein Wissen über Docker ist deutlich gewachsen. Da ich weiss, dass ich in meinem Arbeitsumfeld dies nochmals anschauen werde, lässt hoffen, dass da dieselben Probleme nicht mehr auftreten wie hier.</br>
 
 ## Reflexion
+Es war enttäuschend, dass ich so viel Zeit investiert hatte und am Ende alles wegen einem VM-Fehler verloren ging.
 Ich hatte mir Docker deutlich einfacher vorgestellt als es dann wirklich war.
 Die kürzeren Code-Längen (verglichen mit Vagrant) haben mich da ziemlich reingelegt. Es war deutlich anspruchsvoller.
 Besonders fand man deutlich weniger im Internet dazu, was natürlich das Lösen von Fehlern schwieriger machte.
