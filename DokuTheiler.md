@@ -1,5 +1,8 @@
 # Serverdienste automatisieren mit Vagrant
 
+## Vorwort
+Ich habe das Projekt alleine angefangen. Da jedoch (wahrscheinlich wegen Storage-Problemen) meine VM nicht mehr starten wollte, wo ich alle meine Files drauf hatte, habe ich nun dieselben Files wie mein Tandempartner David Milovanovic.
+
 ## Inhaltsverzeichnis
 1. [Kurzbeschrieb](#Kurzbeschrieb)
 2. [Dockerbefehle](#Dockerbefehle)
@@ -10,12 +13,12 @@
     * [Dockerfile](#Dockerfile)
     * [Dockercomposefile](#Dockercomposefile)
 5. [Testing](#Testing)
-6. [troubleshooting](#Troubleshooting)
+6. [Troubleshooting](#Troubleshooting)
 7. [Jetziger Wissensstand](#Jetziger-Wissensstand)
 8. [Reflexion](#Reflexion)
 
 ## Kurzbeschrieb
-Das Ziel für mich war es einen Container mit einer MySQL-Datenbannk, sowie ein Webserver mit phpMyAdmin laufen.
+Das Ziel für mich war es einen Container mit einer MySQL-Datenbank, sowie ein Webserver mit phpMyAdmin laufen.
 
 ## Dockerbefehle
 
@@ -46,15 +49,6 @@ Die einzelnen Code Abschnitte des Dockerfiles.
 
 ~~~~
 
-
-### Dockercomposefiles
-
-Die einzelnen Code Abschnitte des Dockercomposefiles.
-
-~~~~
-
-~~~~
-
 ## Testing
 
 |Testfall | Erwartet | Resultat |
@@ -66,8 +60,19 @@ Die einzelnen Code Abschnitte des Dockercomposefiles.
 *phpMyAdminWebsite* </br>
 ![Image](/phpmyadminwebsite.PNG)
 
-##Troubleshooting
+## Troubleshooting
+### Allgemeines Troubleshooting
+* Sicherstellen, dass man Root-Rechte hat.
+* Schreib- und Leserechte sollten richtig verteilt sein.
+* Das Mounten von Volumes braucht Shared Drives für Linux-Container.
+* Auf die Versionen achten. Manche Versionen sind nicht miteinander kompatibel.
 
+### Ressourcen-Begrenzung
+|Suffix | Effekt|
+|:--:|:--:|
+|-m|RAM begrenzen. (-m 4m ist z.B. 4MB)|
+|--kernel-memory|Kernel-Memory begrenzen|
+|--cpus=<value>|Stellt ein wie viel CPU-Ressourcen der Container benutzen darf (z.B bei 2 CPUs kann man 1.5 eingeben um nicht alles zu benutzen|
 
 ## Jetziger Wissensstand
 *Docker* </br>
