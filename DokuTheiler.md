@@ -163,8 +163,9 @@ CMD ["mysqld"]
 |phpMyAdmin|Das phpMyAdmin Tool wird angezeigt|Das phpMyAdmin Tool wurde auf dem Webserver angezeigt|
 |mySQL-Server|phpMyAdmin sollte mit dem mySQL-Server kommunizieren|Ich konnte über phpMyAdmin auf die MySQL-Datenbank zugreifen|
 
+*phpMyAdminWebsite-Login* </br>
+![Image](/phpmyadmin.PNG)
 *phpMyAdminWebsite* </br>
-![Image](/phpmyadminwebsite.PNG)
 ![Image](/login.PNG)
 
 ## Troubleshooting
